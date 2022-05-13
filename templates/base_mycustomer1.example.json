@@ -1,0 +1,10 @@
+{ "attributes": [
+    {"remarks": "Managed by ripe-updater"},
+    {"org": "ORG-EIPB1-TEST"},
+    {"admin-c": "AA2-TEST"},
+    {"tech-c": "AA2-TEST"},
+    {"abuse-c": "AA1-TEST"},
+    {"notify": "noc@example.com"},
+    {"mnt-by": "TEST-NCC-HM-MNT"},
+    {"source": "TEST"}
+]}

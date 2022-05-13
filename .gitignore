@@ -1,0 +1,10 @@
+*.pyc
+*.swp
+/venv/
+*.egg-info
+docker-compose.override.yml
+.DS_Store
+.env
+.vscode
+.tox
+.coverage

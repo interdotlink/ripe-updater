@@ -1,0 +1,16 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <title>ripe-updater backups</title>
+  </head>
+  <body>
+    <h1>Backups</h1>
+    <ul>
+    {% for backup in backups %}
+      <li><a href="backup/{{ backup }}">{{ backup }}</a></li>
+    {% else %}
+      <p>No backups found</>
+    {% endfor %}
+    </ul>
+  </body>
+</html>

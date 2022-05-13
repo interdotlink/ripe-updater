@@ -1,0 +1,7 @@
+version: "3.9"
+services:
+  ripe-updater:
+    ports:
+      - 8000:80
+  volumes:
+    - "./templates:/opt/ripeupdater/templates:ro"

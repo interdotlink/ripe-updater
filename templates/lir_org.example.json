@@ -1,0 +1,8 @@
+{ 
+    "templates": {
+        "lir_org": {
+            "de.examplelir1": "ORG-EIPB1-TEST",
+            "nl.examplelir2": "ORG-TT1-TEST"
+        }
+    }
+}

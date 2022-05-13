@@ -1,0 +1,25 @@
+{
+    "templates":
+    {
+        "CLOUD-POOL": {"attributes": [
+            {"descr": "MyCompany Cloud Pool"}
+        ],
+            "inherit": "base_mycompany.example.json"
+        },
+        "INFRA-TRANSFER-NET": {"attributes": [
+            {"descr": "MyCompany Infrastructure Transfer Network"}
+        ],
+            "inherit": "base_mycompany.example.json"
+        },
+        "CUST-ACCESS-NET": {"attributes": [
+            {"descr": "MyCompany Customer Access"}
+        ],
+            "inherit": "base_mycompany.example.json"
+        },
+        "CUST-ACCESS-NET-MYCUSTOMER1": {"attributes": [
+            {"descr": "MyCustomer 1 Ltd., Example Street 33"}
+        ],
+            "inherit": "base_mycustomer1.example.json"
+        }
+    }
+}
